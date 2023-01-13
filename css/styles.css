@@ -1,166 +1,132 @@
 :root{
 --first-page-color :#FFFFFF;
+--text :#2E2F42;
+--main-font : Roboto,sans-serif
 
 }
+
 
 
 body{
     background-color: var(--first-page-color);
-font-family: 'Roboto';
-}
-.Studio{
-    width: 48px;
-        height: 24px;
-        font-weight: 500;
-        font-size: 16px;
-        color: #2E2F42;
-        flex:none;
-        order: 0;
-        flex-grow: 0;
-}
-.Portfolio{
-    width: 66px;
-     height: 24px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: #2E2F42;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-}
-.Contacts{
-    width: 67px;
-        height: 24px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: #2E2F42;
-        flex: none;
-        order: 2;
-        flex-grow: 0;
-}
-.mail{
-width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #434455;
-}
-.phone{
-    width: 151px;
-        height: 24px;
-        left: 1133px;
-        top: 24px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #434455;
+font-family: var(--main-font);
+color: var(--text);
+font-size: 16px;
+letter-spacing: 0.02em;
 
 }
-.Studio .Portfolio .Contacts .phone .mail :hover,
-.Studio .Portfolio .Contacts .phone .mail:focus{
-    color: white;
+ .link .studio-link{
+
+    font-weight: 500;
+       
+        color: #2E2F42;
+      
+        text-decoration: none;
+}
+  .link .portfolio-link{
+   
+        font-weight: 500;
+        
+        line-height: 24px;
+        color: #2E2F42;
+      
+        text-decoration: none;
+}
+ .link .contacts-link{
+ 
+        font-weight: 500;
+      
+        line-height: 24px;
+        color: #2E2F42;
+        text-decoration: none;
+}
+.mail{
+
+    font-weight: 400;
+  
+    line-height: 24px;
+    color: #434455;
+    text-decoration: none;
+}
+.phone{
+        font-weight: 400;
+     
+        line-height: 24px;
+        color: #434455;
+        text-decoration: none;
+
+}
+.link .studio-link :hover ,
+.link .studio-link :focus{
+
+    font-weight: 500;
+   
+    line-height: 24px; 
+    color: #404BBF;
 }
 
 
 .company-motto{
-color: #FFFFFF;
-
-    width: 494px;
-    height: 120px;
-    left: 473px;
-    top: 260px;
-
-   
-
- 
- 
+color: #FFFFFF; 
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
   
   
 
 }
 .motto-button{
-   
-    
-
-    
         background: #2E2F42;
 }
 .button{
     
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 32px;
-        gap: 10px;
-
-        font-family: 'Roboto';
-            font-style: normal;
+      
             font-weight: 500;
-                font-size: 16px;
+              
                 line-height: 24px;
-                color: #FFFFFF;
-    
-        
-        width: 169px;
-        height: 56px;
-        left: 636px;
-        top: 428px;
-    
+                color: #FFFFFF;  
         background-color: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+}
+.button :hover,
+.button :active{
+   
+        font-weight: 500;
+     
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background: #404BBF;
 }
 
 
 
 .servises{
      
-    width: 264px;
-        height: 24px;
-    
-    
-        font-family: 'Roboto';
-        font-style: normal;
+ 
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
        
     
-        letter-spacing: 0.02em;
+    
     
       
     
         color: #2E2F42;
     
     
-   
-    
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-       
 }
 .servises-description{
-    width: 264px;
-        height: 72px;
-    
+   
       
     
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        
         line-height: 24px;
        
 
-        letter-spacing: 0.02em;
     
         
     
@@ -169,33 +135,15 @@ color: #FFFFFF;
     
      
     
-        flex: none;
-        order: 1;
-        flex-grow: 0;
 }
 
 
 .work-team{
-    width: 323px;
-        height: 40px;
-        left: 559px;
-        top: 1016px;
+   
     
-        /* Header 2 */
-    
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
-        /* identical to box height, or 111% */
-    
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-    
-        /* NAVY BLUE */
-    
+        line-height: 1.1;
         color: #2E2F42;
 }
 .team{
@@ -205,117 +153,60 @@ color: #FFFFFF;
     background-color: white;
 }
 .workers-names{
-    width: 134px;
-        height: 24px;
+ 
         font-weight: 500;
             font-size: 20px;
             line-height: 24px;
             
             color: #2E2F42;
-            flex: none;
-            order: 0;
-            flex-grow: 0;
 }
 .professions{
-    width: 144px;
-        height: 24px;
         font-weight: 400;
             font-size: 16px;
-            line-height: 24px;
-            /* identical to box height, or 150% */
-        
-          
-        
-            /* SLATE */
-        
+            line-height: 1.5;        
             color: #434455;
-        
-        
-            /* Inside auto layout */
-        
-            flex: none;
-            order: 1;
-            flex-grow: 0;
-        
 }
 
 .logo{
-    font-family: 'Raleway';
-    width: 71px;
-        height: 24px;
+
     
         font-family: 'Raleway';
-        font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 24px;
-     
-    
+        line-height: 1.5;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    
-    
-    
         color: #2E2F42;
-    
-    
-    
-        flex: none;
-        order: 1;
-        flex-grow: 0;
+            text-decoration: none;
 }
 .logo2{
-    width: 44px;
-        height: 24px;
-    
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 24px;
-       
-    
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    
-        
-    
-        color: #4D5AE5;
-    
-    
-    
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+     color: #4D5AE5;
+    text-decoration: none;
 }
 .logo3{
    
-    width: 71px;
-        height: 22px;
+font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+     color: #F4F4FD;
+    text-decoration: none;
     
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 21px;
-  
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    
-    
-        color: #F4F4FD;
-    
-    
-    
-        flex: none;
-        order: 1;
-        flex-grow: 0;
+   
 }
 .logo1 .logo2 .logo3:hover,
 .logo1 .logo2 .logo3:focus {
@@ -325,16 +216,12 @@ color: #FFFFFF;
     background-color: #2E2F42;
 }
 .recomendation{
-   
-        width: 264px;
-        height: 72px;
-        left: 156px;
-        top: 2418px;
+
         font-weight: 400;
-        font-size: 16px;
         line-height: 24px;
         color: #E7E9FC;
 }
 .list-styles{
     list-style: none;
 }
+
