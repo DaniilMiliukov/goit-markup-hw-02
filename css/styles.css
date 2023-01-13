@@ -18,7 +18,7 @@ letter-spacing: 0.02em;
  .link .studio-link{
 
     font-weight: 500;
-       
+        line-height: 24px;
         color: #2E2F42;
       
         text-decoration: none;
@@ -48,6 +48,14 @@ letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
 }
+.mail:hover ,
+.mail:focus{
+    font-weight: 400;
+    
+        line-height: 24px;
+    color: #404BBF;
+        text-decoration: none;
+}
 .phone{
         font-weight: 400;
      
@@ -56,15 +64,26 @@ letter-spacing: 0.02em;
         text-decoration: none;
 
 }
-.link .studio-link :hover ,
-.link .studio-link :focus{
-
+.link .studio-link:hover ,
+.link .studio-link:focus{
     font-weight: 500;
-   
     line-height: 24px; 
     color: #404BBF;
 }
 
+.link .portfolio-link:hover,
+.link .portfolio-link:focus {
+    font-weight: 500;
+    line-height: 24px;
+    color: #404BBF;
+}
+
+.link .contacts-link:hover,
+.link .contacts-link:focus {
+    font-weight: 500;
+    line-height: 24px;
+    color: #404BBF;
+}
 
 .company-motto{
 color: #FFFFFF; 
@@ -208,10 +227,7 @@ font-family: 'Raleway';
     
    
 }
-.logo1 .logo2 .logo3:hover,
-.logo1 .logo2 .logo3:focus {
-    color:purple
-}
+
 .footer{
     background-color: #2E2F42;
 }
