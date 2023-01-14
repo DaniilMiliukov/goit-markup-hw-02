@@ -13,28 +13,23 @@ font-family: var(--main-font);
 color: var(--text);
 font-size: 16px;
 letter-spacing: 0.02em;
-cursor: pointer;
 }
- .link .studio-link{
+.link .nav-link {
 
     font-weight: 500;
-        line-height: 24px;
-        color: #2E2F42;
-        text-decoration: none;
+    line-height: 24px;
+    color: #2E2F42;
+    text-decoration: none;
+    cursor: pointer;
 }
-  .link .portfolio-link{
-        font-weight: 500;
-        line-height: 24px;
-        color: #2E2F42;
-        text-decoration: none;
+
+
+ .current
+{
+
+
 }
- .link .contacts-link{
- 
-        font-weight: 500;
-        line-height: 24px;
-        color: #2E2F42;
-        text-decoration: none;
-}
+
 .mail{
 
     font-weight: 400;
@@ -68,26 +63,13 @@ cursor: pointer;
 }
 
 
-.link .studio-link:hover ,
-.link .studio-link:focus{
+.link .nav-link:hover ,
+.link .nav-link:focus{
     font-weight: 500;
     line-height: 24px; 
     color: #404BBF;
 }
 
-.link .portfolio-link:hover,
-.link .portfolio-link:focus {
-    font-weight: 500;
-    line-height: 24px;
-    color: #404BBF;
-}
-
-.link .contacts-link:hover,
-.link .contacts-link:focus {
-    font-weight: 500;
-    line-height: 24px;
-    color: #404BBF;
-}
 
 .company-motto{
 color: #FFFFFF; 
@@ -104,23 +86,26 @@ color: #FFFFFF;
 .button{
     
       
-            font-weight: 500;
-              
-                line-height: 24px;
-                color: #FFFFFF;  
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: #FFFFFF;  
         background-color: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        cursor: pointer;
+
 }
-.button :hover,
-.button :active{
+.button:hover,
+.button:active{
    
         font-weight: 500;
-     
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #FFFFFF;
         background: #404BBF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+         border-radius: 4px;
 }
 
 
